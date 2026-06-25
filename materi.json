@@ -1,0 +1,132 @@
+{
+  "Matematika": {
+    "Kelas 1 SD": {
+      "deskripsi": "Belajar mengenal angka 1-10 dan berhitung sederhana",
+      "file_pdf": "materi_pdf/kelas1-matematika.pdf"
+    },
+    "Kelas 2 SD": {
+      "deskripsi": "Mengenal bilangan cacah",
+      "file_pdf": "materi_pdf/kelas2-matematika.pdf"
+    },
+    "Kelas 3 SD": {
+      "deskripsi": "Pengukuran panjang dan berat",
+      "file_pdf": "materi_pdf/kelas3-matematika.pdf"
+    },
+    "Kelas 4 SD": {
+      "deskripsi": "Pecahan sederhana",
+      "file_pdf": "materi_pdf/kelas4-matematika.pdf"
+    },
+    "Kelas 5 SD": {
+      "deskripsi": "Keliling bangun datar",
+      "file_pdf": "materi_pdf/kelas5-matematika.pdf"
+    },
+    "Kelas 6 SD": {
+      "deskripsi": "Satuan Volume",
+      "file_pdf": "materi_pdf/kelas6-matematika.pdf"
+    }
+  },
+  "IPA": {
+    "Kelas 1 SD": {
+      "deskripsi": "Mengenal bagian tubuh kita",
+      "file_pdf": "materi_pdf/kelas1-ipa.pdf"
+    },
+    "Kelas 2 SD": {
+      "deskripsi": "Tanaman dan lingkungan sekitar.",
+      "file_pdf": "materi_pdf/kelas2-ipa.pdf"
+    },
+    "Kelas 3 SD": {
+      "deskripsi": "Ciri-ciri makhluk hidup",
+      "file_pdf": "materi_pdf/kelas3-ipa.pdf"
+    },
+    "Kelas 4 SD": {
+      "deskripsi": "Makhluk hidup dan habitatnya.",
+      "file_pdf": ""
+    },
+    "Kelas 5 SD": {
+      "deskripsi": "Sistem tata surya dan bumi.",
+      "file_pdf": ""
+    },
+    "Kelas 6 SD": {
+      "deskripsi": "Biologi dasar dan ekosistem.",
+      "file_pdf": ""
+    }
+  },
+  "Bahasa Indonesia": {
+    "Kelas 1 SD": {
+      "deskripsi": "Mengenal huruf dan membaca sederhana.",
+      "file_pdf": ""
+    },
+    "Kelas 2 SD": {
+      "deskripsi": "Membaca lancar dan menulis kata.",
+      "file_pdf": ""
+    },
+    "Kelas 3 SD": {
+      "deskripsi": "Membaca cerita dan memahami isi.",
+      "file_pdf": ""
+    },
+    "Kelas 4 SD": {
+      "deskripsi": "Menulis paragraf dan puisi sederhana.",
+      "file_pdf": ""
+    },
+    "Kelas 5 SD": {
+      "deskripsi": "Membaca teks informatif dan menulis laporan.",
+      "file_pdf": ""
+    },
+    "Kelas 6 SD": {
+      "deskripsi": "Menulis karangan dan memahami teks naratif.",
+      "file_pdf": ""
+    }
+  },
+  "IPS": {
+    "Kelas 1 SD": {
+      "deskripsi": "Mengenal keluarga dan rumah.",
+      "file_pdf": ""
+    },
+    "Kelas 2 SD": {
+      "deskripsi": "Tetangga dan lingkungan sekitar.",
+      "file_pdf": ""
+    },
+    "Kelas 3 SD": {
+      "deskripsi": "Sekolah dan masyarakat.",
+      "file_pdf": ""
+    },
+    "Kelas 4 SD": {
+      "deskripsi": "Daerah tempat tinggal dan kegiatan ekonomi.",
+      "file_pdf": ""
+    },
+    "Kelas 5 SD": {
+      "deskripsi": "Sejarah Indonesia dan keberagaman.",
+      "file_pdf": ""
+    },
+    "Kelas 6 SD": {
+      "deskripsi": "Geografi Indonesia dan negara tetangga.",
+      "file_pdf": ""
+    }
+  },
+  "PKn": {
+    "Kelas 1 SD": {
+      "deskripsi": "Mengenal diri sendiri dan keluarga.",
+      "file_pdf": ""
+    },
+    "Kelas 2 SD": {
+      "deskripsi": "Tata tertib di rumah dan sekolah.",
+      "file_pdf": ""
+    },
+    "Kelas 3 SD": {
+      "deskripsi": "Hak dan kewajiban sebagai warga.",
+      "file_pdf": ""
+    },
+    "Kelas 4 SD": {
+      "deskripsi": "Sistem pemerintahan Indonesia.",
+      "file_pdf": ""
+    },
+    "Kelas 5 SD": {
+      "deskripsi": "Pancasila dan UUD 1945.",
+      "file_pdf": ""
+    },
+    "Kelas 6 SD": {
+      "deskripsi": "Bhinneka Tunggal Ika dan persatuan.",
+      "file_pdf": ""
+    }
+  }
+}

@@ -1,0 +1,189 @@
+/* ==========================================================================
+   1. LAYOUT & UTILITIES (Mencegah Layar Melar di Monitor Lebar)
+   ========================================================================== */
+.block-container {
+    max-width: 1200px !important;
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+}
+
+/* ==========================================================================
+   2. HERO SECTION & TYPOGRAPHY
+   ========================================================================== */
+/* Judul Utama "PANDAI" dengan Gradasi Biru Modern */
+.hero-title {
+    font-size: 76px !important;       /* <-- Ditambah !important biar ukurannya mutlak besar */
+    font-weight: 900 !important;       /* <-- Dipertebal maskimal */
+    text-align: center !important;
+    margin-top: 60px !important;       /* Jarak aman dari top menu Streamlit */
+    margin-bottom: 5px !important;
+    background: linear-gradient(45deg, #1e3a8a, #3b82f6) !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;         
+    -webkit-text-fill-color: transparent !important;
+}
+
+/* Tagline Subtitle */
+.hero-tagline {
+    text-align: center !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    color: #4b5563 !important; /* Warna abu-abu elegan */
+    margin-top: -5px !important;  /* Menempel pas di bawah judul utama */
+    margin-bottom: 0px !important;
+}
+
+/* Icon Hero */
+.hero-icon {
+    font-size: 70px !important;            /* Atur sendiri ukuran emojinya di sini */
+    display: inline-block !important;
+    vertical-align: middle !important;      /* Biar sejajar tegak lurus sama teks "Belajar" */
+    margin-right: 10px !important;         /* Jarak antara emoji dan teks */
+    
+    /* RESET GRADASI: Memaksa emoji merender warna aslinya, bukan transparan/gradasi */
+    background: none !important;
+    -webkit-background-clip: initial !important;
+    background-clip: initial !important;
+    -webkit-text-fill-color: initial !important;
+}
+
+/* Garis Pembatas Kustom 3 Warna (Merepresentasikan Keberagaman/SDGs) */
+.custom-divider {
+    height: 4px;
+    background: linear-gradient(90deg, #3b82f6 0%, #ef4444 50%, #f59e0b 100%);
+    border-radius: 2px;
+    margin: 15px auto 30px auto;
+    width: 150px;
+}
+
+/* Subtitle Header */
+.hero-subtitle {
+    text-align: center; 
+    margin-bottom: 30px;
+}
+
+.hero-subtitle h2 {
+    font-weight: 700 !important; 
+    color: #1f2937 !important; 
+    margin-bottom: 5px !important;
+}
+
+.hero-subtitle p {
+    color: #4b5563 !important; 
+    font-size: 16px !important;
+}
+
+/* ==========================================================================
+   3. COMPONENTS & CARDS
+   ========================================================================== */
+/* Boks Sambutan Maskot Panda (Gradasi Halus & Timbul) */
+.welcome-box {
+    background: linear-gradient(135deg, #f8fafc 0%, #ffffff 100%);
+    padding: 24px;
+    border-radius: 16px;
+    border: 2px solid #e2e8f0;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    margin-bottom: 35px;
+}
+
+/* Kartu Fitur Keunggulan Arsitektur (Tinggi Sama Rata & Bersih) */
+.feature-card {
+    background: #ffffff;
+    padding: 24px;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.02), 0 2px 4px -1px rgba(0, 0, 0, 0.02);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.feature-card h4 {
+    margin: 10px 0 8px 0 !important; 
+    color: #1f2937 !important; 
+    font-weight: 700 !important;
+}
+
+.feature-card p {
+    color: #4b5563 !important; 
+    font-size: 13.5px !important; 
+    line-height: 1.6 !important;
+    margin-bottom: 15px !important;
+}
+
+/* Badge Label Kecil di Dalam Kartu */
+.badge-tag {
+    display: inline-block;
+    align-self: flex-start;
+    padding: 4px 12px;
+    font-size: 11px;
+    font-weight: 600;
+    border-radius: 20px;
+}
+
+/* Boks Komitmen SDGs */
+.sdgs-box {
+    background: #f0fdf4; 
+    padding: 24px; 
+    border-radius: 12px; 
+    border: 1px solid #bbf7d0; 
+    margin-top: 25px;
+}
+
+.sdgs-box p.sdgs-title {
+    color: #166534 !important; 
+    font-weight: 700 !important; 
+    margin: 0 0 8px 0 !important;
+}
+
+.sdgs-box p.sdgs-text {
+    color: #1e293b !important; 
+    font-size: 14px !important; 
+    line-height: 1.7 !important;
+    margin: 0 !important;
+}
+
+/* ==========================================================================
+   4. FOOTER
+   ========================================================================== */
+.custom-footer {
+    text-align: center; 
+    color: #9ca3af; 
+    font-size: 13px; 
+    padding-top: 25px; 
+    border-top: 1px solid #e5e7eb; 
+    margin-top: 50px;
+}
+
+/* ==========================================================================
+   5. FORCE HIDE SIDEBAR & TOP BAR BUTTON
+   ========================================================================== */
+/* Menyembunyikan navigasi halaman otomatis di sidebar */
+[data-testid="stSidebarNav"] {
+    display: none !important;
+}
+
+/* (Opsional) Jika ingin menyembunyikan seluruh boks sidebar-nya sekalian */
+[data-testid="stSidebar"] {
+    display: none !important;
+}
+
+/* Menyembunyikan tombol panah kecil (chevron) di pojok kiri atas */
+[data-testid="stSidebarCollapseButton"] {
+    display: none !important;
+}
+
+/* ==========================================================================
+   WARNA BACKGROUND RADIAL (Efek Spotlight Modern)
+   ========================================================================== */
+.stApp, [data-testid="stAppViewContainer"] {
+    /* Lingkaran gradasi dimulai dari atas-tengah (at top center) */
+    background: radial-gradient(circle at top center, #eff6ff 0%, #f1f5f9 60%, #f8fafc 100%) !important;
+    color: #1f2937 !important;
+}
+
+/* Tetap pertahankan ini agar kontainer utama transparan */
+[data-testid="stMainBlockContainer"] {
+    background: transparent !important;
+}
